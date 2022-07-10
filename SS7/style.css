@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.top {
+    padding-top: 10px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    justify-content: space-around;
+}
+
+.top
+
+h2 {
+    margin: 0;
+}

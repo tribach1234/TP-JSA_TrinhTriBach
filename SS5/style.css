@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;   
+    background-color: brown;
+    display: flex;
+}
+
+.left{
+    height: 100vh;
+    width: 20vw;
+    background-color: #545454;
+}
+
+.right{
+    height: 100vh;
+    width: 80vw;
+    background-color: #ffbd59;
+}
+
+.left-top{
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-mid{
+    height: 50vh;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-bottom{
+    height: 30vh;
+    background-color: orange;
+}   
+
+h3,h4 {
+    margin: 0;
+    color: white;
+}
+
+.beta{
+    text-transform: uppercase;
+    background-color: yellow;
+    width: fit-content;
+    padding: 5px;
+}
+
+.content-mid h4{
+    background-color: blue;
+    padding: 20px 10px;
+    margin-bottom: 5px ;
+}
+
+.bottom-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+}
+
+.top-row{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.content-bottom{
+    padding-left: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.right a{
+    background-color: blue;
+    padding:20px 50px;
+    display: flex;
+    width: fit-content;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle:hover {
+    background-color: greenyellow;
+    border-radius: 4%;
+}
+
+.main-box-left, .main-box-right {
+    background-color: black;
+    width: 400px;
+    height: 100px;
+}
+
+.main-box-content{
+    display: flex;
+    justify-content: space-around;
+}

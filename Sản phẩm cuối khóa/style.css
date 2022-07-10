@@ -1,0 +1,430 @@
+.big-box-top{
+    width: 1263px;
+    height: 650px;
+    background-color: black;
+    background-image: url("https://noizzy.qodeinteractive.com/wp-content/uploads/2018/09/h1-event-background.jpg");
+    margin-top: 50px;
+}
+
+.big-box-bottom{
+    width: 1263px;
+    height: 700px;
+    background-color: white;
+}
+
+.small-box{
+    padding-top: 5px;
+    position: relative;
+    padding-left: 10px;
+    display: flex;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    color: white;
+    padding-left: 20px;
+	margin: 5px 10px 15px;
+}
+
+p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+}
+
+.date{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+button{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    width: 135px;
+    height: 54px;
+    top: 30px;
+    right: 60px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+}
+
+.small-box-top{
+    height: 350px;
+    background-color: white;
+    padding: 45px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-block{
+    width: 333px;
+    height: 324px;
+    position: relative;
+    box-shadow: 0 0 9px 0 rgba(0,0,0,.17);
+}
+
+img{
+    width: 333px;
+    height: 180px;
+    
+}
+
+a{
+	text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+h6{
+    padding-top: 10px;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.noizzy {
+    font-size: 67px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+    left: 540px;
+}
+
+.small-box-bottom{
+    height: 370px;
+    background-color: black;
+    justify-content: center;
+    position: relative;
+    
+}
+
+body{
+    margin: 0px;
+}
+
+.date-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 52px;
+    height: 67px;
+    padding: 5px 0px;
+    background: #000;
+    color: white;
+    text-align: center;
+
+}
+
+.day{
+    font-family: 'Oswald',sans-serif;
+    font-size: 32px;
+}
+
+.month{
+    font-family: 'Oswald',sans-serif;
+    font-size: 14px;
+}
+
+.instagram img {
+    width: 30px;
+    height: 30px;
+}
+
+.youtube img {
+    width: 30px;
+    height: 30px;
+}
+
+.twitter img {
+    width: 30px;
+    height: 30px;
+}
+
+.bandcamp img {
+    width: 30px;
+    height: 30px;
+}
+
+.facebook img {
+    width: 30px;
+    height: 30px;
+}
+.soundcloud img {
+    width: 48px;
+    height: 30px;
+}
+
+.icon-box{
+    display: flex;
+    padding: 180px 400px 0px; 
+    justify-content: space-between;
+}
+
+.seperation-line{
+    border-color: #363636;
+    border-style: solid;
+    width: 400px;
+    border-bottom-width: 1px;
+    margin-top: 14px;
+    margin-bottom: 16px;
+    margin-left: 430px;
+    margin-top: 25px;
+}
+
+.footer{
+    color: white;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 530px;
+}
+
+.main-home{
+    position: relative;
+    width: 1263px;
+    height: 650px;
+    background-color: black;
+    background-image: url("https://noizzy.qodeinteractive.com/wp-content/uploads/2018/08/h1-slide-img-3-1.jpg");
+    background-size: cover;
+    background-position:inherit;
+    justify-content: center ;
+}
+
+.header1{
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    color: white;
+    font-size: 140px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.header2{
+    top: 42%;
+    left: 20%;
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    color: white;
+    font-size: 140px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.read-more-button a{
+    background-color: black;
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    padding: 19px 42px;
+    top: 73%;
+    left: 43%;
+    color: white;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu{
+    position: absolute;
+    width: 1263px;
+    height: 124px;
+    display: flex;
+    padding: 50px 0px;
+}
+
+.menu img{
+    width: 88px;
+    height: 25px;
+    padding-left: 50px;
+}
+
+.small-menu a{
+    height: 20px;
+    padding: 42px 0px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+.small-menu{
+    width: 80%;
+    justify-content: space-around;
+    display: flex;
+    padding: 0px 50px;
+}
+
+.event-list{
+    position: relative;
+    width: 1263px;
+    height: 650px;
+    background-color: black;
+    background-image: url("https://noizzy.qodeinteractive.com/wp-content/uploads/2018/08/tour-dates-title-area.jpg");
+    background-size: cover;
+    background-position:inherit;
+    justify-content: center ;
+}
+
+.event-list-header{
+    top: 38%;
+    left: 20%;
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    color: white;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.poster-row-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.poster-row-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.poster img{
+    width: 317px;
+    height: 454px;
+}
+
+.poster{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 9px 0 rgba(0,0,0,.17);
+}
+
+.show-more-button a{
+    background-color: black;
+    width: 90px;
+    height: 20px;
+    padding: 19px 42px;
+    top: 73%;
+    left: 43%;
+    color: white;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.show-more-button{
+    padding: 30px 547px 100px;
+}
+
+.about-us{
+    position: relative;
+    width: 1263px;
+    height: 650px;
+    background-color: black;
+    background-image: url("https://noizzy.qodeinteractive.com/wp-content/uploads/2018/08/about-us-title-area.jpg");
+    background-size: cover;
+    background-position:inherit;
+    justify-content: center ;
+}
+
+.about-us-header{
+    top: 38%;
+    left: 20%;
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    color: white;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.our-story{
+    padding: 120px 65px 110px;
+}
+
+.our-story-header{
+    font-size: 67px;
+    font-family: 'Oswald', sans-serif;
+    margin: 20px 0px 0px;
+    width: 35%;
+    line-height: 70px;
+    padding-left: 15px;
+}
+
+.our-story-content{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.our-story-content-left {
+    padding: 0px 15px;
+} 
+
+.our-story-content-left a{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: inherit;
+    text-transform: none;
+}
+
+.our-story-content-right a{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: inherit;
+    text-transform: none;
+}
+
+.our-story-content-right {
+    padding: 0px 15px;
+} 
+
+.member{
+    display: flex;
+    justify-content: center;
+}
+
+.member-box{
+    padding: 0px 15px 70px;
+}
+
+.member-box img{
+    width: 346px;
+    height: 346px;
+}
+
+.member-name a{
+    font-family: 'Oswald',sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+.member-role a{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: inherit;
+    text-transform: none;
+}
+
+.free {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    width: 135px;
+    height: 54px;
+    top: 30px;
+    right: 60px;
+    color: #878787;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+}
